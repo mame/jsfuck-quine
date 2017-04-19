@@ -2,8 +2,8 @@
 
 This is a JavaScript Quine written using a limited set of six different characters: `(`, `)`, `[`, `]`, `+`, `!`.
 
-* [https://en.wikipedia.org/wiki/Quine_(computing)](Quine): a self-replicating programs that produces its source code as output.
-* [http://www.jsfuck.com/](JSFuck): an esoteric programming style of JavaScript where code is written using only six distinct characters.
+* [Quine](https://en.wikipedia.org/wiki/Quine_%28computing%29): a self-replicating programs that produces its source code as output.
+* [JSFuck](http://www.jsfuck.com/): an esoteric programming style of JavaScript where code is written using only six distinct characters.
 
 ## How can we run it?
 
