@@ -2,9 +2,9 @@ function f(Q){
   P={0:'[+[]]',m:'((+[])'+(C="['constructor']")+"+[])['11']"};
   for(R in B=
     (
-      '![]@!![]@[][[]]@'+
+      '!![]@![]@[][[]]@+[![]]@'+
       (A="[]['fill']")+
-      "@([]+[])['fontcolor']([])@+('11e20')@(![]+[])['split']([])@"+
+      "@([]+[])['fontcolor']([])@+('11e20')@(![]+[])['split']([])@([]+[])"+C+"@"+
       A+C+"('return escape')()("+A+')'
     ).split('@')
   )
@@ -16,11 +16,9 @@ function f(Q){
         (G+='+!+[]')+']'
       :
         P[D]||"(+('"+B+"'))['to'+([]+[])"+C+"['name']]('36')";
-  A+=C+"('eval(unescape(\"";
-  Q='eval(Q='+JSON.stringify(Q)+')';
-  for(E in Q)
-    A+="'+![]+'"+Q.charCodeAt(E).toString(16);
-  for(A+="\".replace(/'+![]+'/g,\"%\")))')()",R=0;R<9;R++)
+  U='dl0ta12f4ns3rNu5';
+  A+=C+"('eval(unescape(\""+(Q='eval(Q='+JSON.stringify(Q)+')').replace(/./g,s=>U[(V=s.charCodeAt())>>4]+U[V&15]);
+  for(A+="\".replace(/./g,(f,t)=>\"%\".slice(t<<31<0)+\""+U+"\".match(f).index.toString(16))))')()",R=0;R<9;R++)
     A=A.replace(/'.*?'/g,function(B){
       T=[];
       for(E=1;B[E+1];)
